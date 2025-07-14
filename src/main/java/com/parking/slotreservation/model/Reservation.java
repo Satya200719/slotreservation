@@ -25,6 +25,7 @@ public class Reservation {
 	private ParkingSlot parkingSlot;
 	private LocalDate startTime;
 	private LocalDate endTime;
+	
 	@Enumerated(EnumType.STRING)
 	private ReservationStatus status;
 	

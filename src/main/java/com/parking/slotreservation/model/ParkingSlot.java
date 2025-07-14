@@ -9,7 +9,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.*;
-
+import com.parking.slotreservation.model.Reservation;
 
 @Entity
 public class ParkingSlot {
